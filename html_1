@@ -1,0 +1,187 @@
+<?php
+include_once('./_common.php');
+
+define('_INDEX_', true);
+if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
+
+if (defined('G5_THEME_PATH')) {
+    require_once(G5_THEME_PATH . '/index.php');
+    return;
+}
+
+if (G5_IS_MOBILE) {
+    include_once(G5_MOBILE_PATH . '/index.php');
+    return;
+}
+
+include_once(G5_PATH . '/head.php');
+
+if (defined('_INDEX_')) { // index에서만 실행
+    include G5_BBS_PATH . '/newwin.inc.php'; // 팝업레이어
+}
+
+?>
+
+    <link rel="stylesheet" href="./css/um_pc.css">
+
+
+    <div class="wrap">
+
+        <div class="top_wrap">
+            <div class="background_top">
+                <div>
+                    <a>즐겨찾기추가 </a>
+                    <a>고객센터&nbsp;&nbsp;&nbsp;&nbsp;|</a>
+                    <a>주문내역조회&nbsp;&nbsp;&nbsp;&nbsp;|</a>
+                    <a>장바구니&nbsp;&nbsp;&nbsp;&nbsp;|</a>
+                    <a>회원기입&nbsp;&nbsp;&nbsp;&nbsp;|</a>
+                    <a>로그인&nbsp;&nbsp;&nbsp;&nbsp;|</a>
+                </div>
+            </div>
+
+            <div class="top_b">
+                <div class="top_b_1"></div>
+                <div class="cen">
+                    <img class="cen" src="/img/img_1.gif">
+                </div>
+
+
+                <div class="cen top_b_2">
+                    <ul>
+                        <li class="re">사진인화</li>
+                        <li>포토북/앨범</li>
+                        <li>포토팬시</li>
+                        <li class="re">사진액자</li>
+                        <li>돌잔치샵</li>
+                        <li>도움말</li>
+                        <li>고객센터</li>
+                        <span class="re1 re">소셜커머스 쿠폰등록</span>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 탑 워랩 종료 -->
+
+        <div class="body_wrap">
+            <div class="cen"><img src="/img/img_2.gif"></div>
+            <div class="cen"><img src="/img/slice.gif"></div>
+            <div class="cen"><img src="/img/img_3.gif"></div>
+            <div class="cen"><img src="/img/slice.gif"></div>
+            <div class="cen body_mar">
+                <div>
+                    <div class="first_mar">
+                        <span class="first_one">WOORI&nbsp;&nbsp; PHOTO&nbsp;&nbsp; ITEM&nbsp;&nbsp;&nbsp; # <br><br> #&nbsp;&nbsp;WEBHard</span>
+                        <label class="">우리의 포토에서 사진인화 신청시,<br>아래의 웹하드에 파일을 업로드 해주세요</label>
+                        <a>웹하드 바로가기 -</a>
+                        <label>ID: WOORIPICS<br>PW: 1235</label>
+                        <img src="/img/XX.gif">
+
+                    </div>
+                    <div class="first_mar">
+                        <div class="first_title">사진인화&nbsp;&nbsp;&nbsp;</div>
+                        <span class="first_sub_title">#&nbsp;&nbsp;Photo Print</span>
+                        <label class="first_memo">최저가격의로 최고의 사진 인화 품질을 느껴보세요.<br>우리 포토만의 고품질 사진인화 서비스로<br>감성있는 사진을 만들어
+                            드립니다.</label>
+                    </div>
+                    <div class="first_mar">
+                        <div class="first_title">사진액자&nbsp;&nbsp;&nbsp;</div>
+                        <span class="first_sub_title">#&nbsp;&nbsp;Photo Frame</span>
+                        <label class="first_memo">고품격 최고급 인테리어 액자로 집안 분위기를 멋지게!<br>고풍스럽거나 심플하거나 종류별로 다양한 액자를<br>선택하여 멋진
+                            사진을 만들어 보세요</label>
+                    </div>
+                </div>
+                <div>
+                    <div class="second_mar back_1"></div>
+                    <div class="second_mar">
+                        <img src="/img/img_4.gif">
+                    </div>
+                    <div class="second_mar">
+                        <div class="first_title">포토달력&nbsp;&nbsp;&nbsp;</div>
+                        <span class="first_sub_title">#&nbsp;&nbsp;Photo Calendar</span>
+                        <label class="first_memo">사진을 이용한 다양한 팬시용품들을 만들어 보세요!<br> 포토달력, 포토퍼즐 등 다양한 디자인으로 구성된<br>상품들을
+                            우리포토에서 저렴하게 만나실 수 있습니다.</label>
+                    </div>
+                </div>
+                <div>
+                    <div class="last_mar">
+                        <div class="first_title">포토팬시&nbsp;&nbsp;&nbsp;</div>
+                        <span class="first_sub_title">#&nbsp;&nbsp;Photo Fancy</span>
+                        <label class="first_memo">포토팬시에는 현수막편지, 탁상용달력, 벽걸이달력, 포토카드<br>등의 다양하고 퀄리티 높은 상품을 서비스 하고
+                            있습니다.<br>사진을 이용한 다양한 팬시용품들을 직접 만들어 보세요.</label>
+                    </div>
+                    <div class="last_mar">
+                        <div class="last_title">핸드폰 미니앨범&nbsp;&nbsp;&nbsp;</div>
+                        <span class="first_sub_title">#&nbsp;&nbsp;mini Album</span>
+                        <label class="last_memo">톡톡튀는 나만의 핫 아이템으로 소중한 사진을 특별하게<br>꾸며서 핸드폰에도 달고 목걸이로도 쓰고~!</label>
+                    </div>
+                    <div class="last_mar">
+                        <img src="/img/img_5.gif">
+
+                    </div>
+                </div>
+            </div>
+            <div class="cen last_img">
+                <img src="/img/img_6.gif">
+            </div>
+        </div>
+        <!-- 바디 종료 -->
+        <div class="bottom_wrap">
+            <div class="bottom_full">
+                <div class="bt_1">
+                    <a>회사소개</a>
+                    <a>찾아오시는길</a>
+                    <a>개인정보취급방침</a>
+                    <a>이용방법안내</a>
+                    <a>제휴문의</a>
+                    <a>자주묻는질문</a>
+                    <a>고객센터</a>
+                </div>
+                <div class="bt_2">
+                    <div>
+                        <div>우리포토</div>
+                        <p>경기도 고양시 덕양구 원당로 393번길 9</p>
+
+                        <p>사업자등록번호 128-39-03625 &nbsp;|&nbsp;|&nbsp;대표자 김기범&nbsp;|&nbsp;</p>
+
+                        <p>통신판매업신고번호 2013-고양덕양구-0534&nbsp;|&nbsp;TEL 031-901-1500&nbsp;|&nbsp;FAX 031-967-8767 </p>
+
+                        <p class="bt_m">Email wooripics@hanmail.net&nbsp;|&nbsp;광고관리자 김기범</p>
+
+                        <div>우리포토 웹하드</div>
+                        <p>아이디 : WOORIPICS</p>
+
+                        <p class="bt_m">비밀번호 : 1235</p>
+
+                        <span>COPYRIGHT(C) 2016 RBWSN. ALL RIGHTS RESERVED</span>
+
+                    </div>
+                    <div>
+                        <div>고객센터</div>
+                        <label class="ora">고객센터 대표전화 : 031-901-1234</label>
+                        <p class="bt_t">팩스 : 031-967-1234</p>
+                        <p>궁금하신점이 있으시면 언제는 문의 주십시오.</p>
+                        <p>우리포토 전문상담사가 친절하게 상담해드리겠습니다.</p>
+                        <ul>
+                            <li>평일 : 9:00 ~ 18:00 / 토요일 : 9:00 ~12:00</li>
+                            <li>점심시간 : 12시~1시 / 일요일 및 국가공휴일 휴무</li>
+                        </ul>
+                        <p>신한은행   110-123-123412   김기범</p>
+                        <p>농협   302-1234-1234-91   김기범</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 바텀 종료-->
+
+    </div>
+
+
+
+
+
+
+
+
+<?php
+include_once(G5_PATH . '/tail.php');
+?>
