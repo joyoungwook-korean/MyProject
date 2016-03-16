@@ -1,0 +1,55 @@
+/* index page */
+.cen { width:1040px; margin:0 auto }
+.re { color:red; }
+.wrap { }
+.top_wrap { width:100%; height:360; }
+.background_top { width:100%; height:29px; background-color:black; }
+.background_top > div { width:1040px; margin:0 auto }
+.background_top > div > a { float:right; color:white; padding:5px; }
+.top_b { width:100%; height:332px; background-color:#f3f3f3; bottom:0px; left:0px; position:relative; }
+.top_b_1 { width:100%; background-color:#fbfbfb; position:absolute; height:40px; border-bottom:1px solid #d5d5d5; border-top:1px solid #fbfbfb; opacity:0.7; bottom:0px; left:0px; }
+.top_b_2 { width:100%; position:absolute; bottom:0px; left:0px; }
+.top_b > div > ul { margin:0 auto; overflow:hidden; width:1040px; }
+.top_b > div > ul > li { float:left; padding:10px; font-size:15px; font-weight:bold; margin-left:40px; }
+.top_b > div > ul > li:hover { background:blue; }
+.top_b > div > ul > span:hover { background:blue; }
+.re1 { float:left; padding:10px; font-size:15px; font-weight:bold; margin-left:80px; }
+/* 탑워랩 끝 */
+.body_wrap { width:100%; }
+.body_mar { margin-top:50px; height:563px; }
+.body_mar > div > div { }
+.first_mar { float:left; width:345px; height:178px; border-bottom:1px solid #d5d5d5; position:relative; }
+.body_mar > div > div:first-child { border-right:1px solid #d5d5d5 }
+.body_mar > div > div:nth-child(2) { border-right:1px solid #d5d5d5 }
+.first_mar > * { margin-left:5px; display:block }
+.first_mar > label { color:#a3a2a2; margin:10px 0px; }
+.first_mar > span {font-weight:bold; font-size:13px;}
+.first_mar > a { padding:5px 40px 5px 20px; color:white; background-color:black; display:inline; }
+.first_mar > img { position:absolute; bottom:30px; right:25px; }
+.first_title{padding-left:30px;font-size:30px; display:inline; }
+.first_sub_title{ font-weight:bold; font-size:14px; display:inline}
+.first_memo { color:#a3a2a2;padding-left:30px; display:block}
+.last_title{ padding-left:10px; top:50px;font-size:30px; display:inline;  }
+.last_memo {padding-left:10px; color:#a3a2a2; display:block}
+.second_mar { float:left; width:345px; height:206px; border-bottom:1px solid #d5d5d5 }
+.last_mar{position:relative}
+.last_mar > img {position:absolute; top:75px;left:160px;}
+.back_1 {background-color:yellow}
+.last_mar { float:left; width:345px; height:179px; }
+.last_img > img{margin-bottom:50px;margin-top:40px;  border:10px solid #d5d5d5}
+/*바디워랩끝*/
+
+.bottom_wrap { border-top:3px solid #ff4e00}
+.bottom_full{width:950px; margin:0 auto;}
+.bt_1 {height:56px;}
+.bt_1 > a {  float:left; padding:10px 20px 10px 0px;}
+.bt_2 {overflow:hidden;}
+.bt_2 > div {float:left}
+.bt_2 > div >div{font-size:12px;font-weight:bold; margin-bottom:5px;}
+.bt_2 > div > p { color:#a3a2a2;}
+.bt_2 > div > span {color:#bebebe}
+.bt_m {margin-bottom:20px;}
+.bt_t {margin-bottom:5px;}
+.bt_2 > div:last-child {border-left:1px solid #ccc; padding-left:50px;float:right}
+.bt_2 > div > ul {background:#f1f1f1; display:inline-block; padding:5px 10px; margin:10px 5px;}
+.ora{font-weight:bold; font-size:12px; color:#ff4e00}
